@@ -8,4 +8,5 @@ require 'pry'
       end
     end
 
+binding.pry
    hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
